@@ -30,6 +30,7 @@ function deleteProduct(event) {
     var productList = document.getElementById('productList');
     // productList.removeChild(productDelete);
     productDelete.remove();
+    calculateButton.click();
 }
 
 var deleteButtons = document.getElementsByClassName('btn-danger');
